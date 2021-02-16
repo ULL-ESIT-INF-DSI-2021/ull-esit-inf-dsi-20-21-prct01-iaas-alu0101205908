@@ -36,6 +36,8 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
 
 
-[Numeracion]: images/numeracion.jpg "Numeración"
-[IP]: images/ip.jpg "IP"
-[UsuarioIP]: images/usuarioIP.jpg "Usuario@IP"
+[Numeracion]: images/numeracion.JPG "Numeración"
+[IP]: images/IP.JPG "IP"
+[UsuarioIP]: images/usuariosIP.JPG "Usuario@IP"
+
+
