@@ -4,27 +4,26 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 
 ## Tareas iniciales:
 
-Para empezar debemos de tener instalado el software de VPN de la Universidad de La Laguna, para emular que estamos conectados a su red, y así poder acceder a los servicios del IaaS. En nuestro caso, ya tenemos configurada la VPN, dado que ya lo hemos necesitado para otras asignaturas. Una vez activada la VPN de la ULL, nos dirigimos a [IaaS ULL](https://iaas.ull.es/ovirt-engine/sso/login.html), e introducimos nuestras credenciales para poder acceder al portal del IaaS. (***En caso de no tener activa la VPN de la ULL, no podremos acceder al link del portal del IaaS***)
+* Para empezar, debemos de tener instalado el software de VPN de la Universidad de La Laguna, para emular que estamos conectados a su red, y así poder acceder a los servicios del IaaS. En nuestro caso, ya tenemos configurada la VPN, dado que ya lo hemos necesitado para otras asignaturas. Una vez activada la VPN de la ULL, nos dirigimos a **[IaaS ULL](https://iaas.ull.es/ovirt-engine/sso/login.html)**, e introducimos nuestras credenciales para poder acceder a nuestro pool de máquinas. 
 
-En caso de no tener el software de VPN instalado, se recomienda leer la siguiente documentación: [VPN ULL](https://www.ull.es/servicios/stic/2020/12/01/servicio-de-vpn-de-la-ull/)
+  * (***En caso de no tener activa la VPN de la ULL, no podremos acceder al link del portal del IaaS***). 
 
-```markdown
-Syntax highlighted code block
+* Una vez dentro del pool, debemos ejecutar la máquina de esta asignatura (**DSI**), y obtendremos nuestra numeración (***16***), y la IP de nuestra máquina (***10.6.130.26***) 
 
-# Header 1
-## Header 2
-### Header 3
+![Numeración][numeracion]
+![IP][IP]
 
-- Bulleted
-- List
+* A continuación, ya podemos dirigirnos a nuestra máquina Linux, y en la consola accederemos por SSH a nuestra máquina, dado que conocemos el nombre del usuario (***usuario***) y la IP. 
 
-1. Numbered
-2. List
+![Usuario@IP][UsuarioIP]
 
-**Bold** and _Italic_ and `Code` text
+  * (***Nos saldrá un mensaje al que deberemos respnder con "yes" e intro, y nos pedirá una cntraseña, que será "usuario"***)
+  
+* Una vez aceptado el mensaje, deberemos cambiar la contraseña
 
-[Link](url) and ![Image](src)
-```
+En caso de no tener el software de VPN instalado, se recomienda leer la siguiente documentación: **[VPN ULL](https://www.ull.es/servicios/stic/2020/12/01/servicio-de-vpn-de-la-ull/)**
+
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
@@ -35,3 +34,8 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+
+[Numeracion]: images/numeracion.jpg "Numeración"
+[IP]: images/IP.jpg "IP"
+[UsuarioIP]: images/usuarioIP.jpg "Usuario@IP"
