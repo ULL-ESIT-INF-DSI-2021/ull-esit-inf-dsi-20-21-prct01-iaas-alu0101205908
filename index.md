@@ -16,13 +16,13 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 
 ![IP][IP]
 
-* A continuación, ya podemos dirigirnos a nuestra máquina Linux, y en la consola accederemos por SSH a nuestra máquina, dado que conocemos el nombre del usuario (***usuario***) y la IP. 
+* A continuación, ya podemos dirigirnos a nuestra máquina Linux (local), y en la consola accederemos por SSH a nuestra máquina virtual del IaaS, dado que ya conocemos el nombre del usuario que es ***"usuario"*** y la IP de la máquina. 
 
 ![Usuario@IP][UsuarioIP]
 
 * Nos saldrá un mensaje al que deberemos responder con ***"yes"***, y nos pedirá una contraseña, que será ***"usuario"***.
   
-  * Una vez aceptado el mensaje, deberemos cambiar la contraseña (***introduciendo primeramente la contraseña de "usuario"***), repitiéndola dos veces.
+  * Una vez aceptado el mensaje, deberemos cambiar la contraseña, introduciendo primeramente la contraseña "usuario", y posteriormente la nueva (repitiéndola dos veces).
   
 
 * En caso de no tener el software de VPN instalado, se recomienda leer la siguiente documentación: **[VPN ULL](https://www.ull.es/servicios/stic/2020/12/01/servicio-de-vpn-de-la-ull/)**
