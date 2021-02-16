@@ -8,9 +8,12 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 
   * (***En caso de no tener activa la VPN de la ULL, no podremos acceder al link del portal del IaaS***). 
 
-* Una vez dentro del pool, debemos ejecutar la máquina de esta asignatura (**DSI**), y obtendremos nuestra numeración (***16***), y la IP de nuestra máquina (***10.6.130.26***) 
+* Una vez dentro del pool, debemos ejecutar la máquina de esta asignatura (**DSI**), y obtendremos nuestra numeración (***16***).
 
 ![Numeración][numeracion]
+
+* Y la IP de nuestra máquina (***10.6.130.26***)
+
 ![IP][IP]
 
 * A continuación, ya podemos dirigirnos a nuestra máquina Linux, y en la consola accederemos por SSH a nuestra máquina, dado que conocemos el nombre del usuario (***usuario***) y la IP. 
