@@ -37,5 +37,5 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 
 [Numeracion]: images/numeracion.jpg "Numeración"
-[IP]: images/IP.jpg "IP"
+[IP]: images/ip.jpg "IP"
 [UsuarioIP]: images/usuarioIP.jpg "Usuario@IP"
