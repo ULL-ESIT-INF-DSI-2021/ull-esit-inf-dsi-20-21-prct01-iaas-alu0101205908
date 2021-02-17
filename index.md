@@ -72,13 +72,14 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 * Vamos a cambiar el prompt que tenemos en la terminal de nuestra MV, para que cuando estemos dentro de un repositorio, aparezca la rama actual en el prompt. Esto nos va a ayudar a evitar hacer un git branch para ver la rama activa actualmente. Para hacer el cambio, primero se deberá acceder al siguiente enlace **[GIT PROMPT](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh)**.
 
    1. Copiaremos todo el fichero del enlace anterior, y lo pegaremos en un nuevo fichero en nuestra MV que denominaremos ***"git-prompt.sh"***. 
-   2. Ejecutaremos: usuario@ubuntu:~$ mv git-prompt.sh .git-prompt.sh
+   2. Ejecutaremos el siguiente comando: usuario@ubuntu:~$ mv git-prompt.sh .git-prompt.sh
    3. Abrimos el fichero ***.bashrc***, y en las últimas líneas agregamos las siguiente líneas:
    
      source ~/.git-prompt.sh
      
      PS1='\[\033]0;\u@\h:\w\007\]\[\033[0;34m\][\[\033[0;31m\]\w\[\033[0;32m\]($(git branch 2>/dev/null | sed -n "s/\* \(.*\)/\1/p"))\[\033[0;34m\]]$'
-
+ 
+    4. Ejecutamos el siguiente comando para reiniciar la terminal: usuario@ubuntu:~$ exec bash -l
 
 
 [Numeracion]: images/numeracion.JPG "Numeración"
