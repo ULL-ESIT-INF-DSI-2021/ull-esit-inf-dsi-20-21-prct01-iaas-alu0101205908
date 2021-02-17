@@ -61,6 +61,10 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 
   * usuario@ubuntu:~$ git config --global user.email alu0101205908@ull.edu.es
 
+    * ***NOTA:*** Si ejectamos el siguiente comando, podremos ver la configuración del git:
+    
+      * usuario@ubuntu:~$ git config --list
+
 
 [Numeracion]: images/numeracion.JPG "Numeración"
 [IP]: images/IP.JPG "IP"
