@@ -83,9 +83,11 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
    
 * Como veremos, el formato ha cambiado:
 
+![Prompt cambiado][cambioPrompt]
 
 * Para comprobar que realiza su función, vamos a clonar un repositorio de GitHub, y veremos si cumple su función:
 
+![Prompt rama][promptRama]
 
 [Numeracion]: images/numeracion.JPG "Numeración"
 [IP]: images/IP.JPG "IP"
@@ -94,3 +96,5 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 [Settings2]: images/settings2.jpg "New SSH"
 [Settings3]: images/settings3.jpg "New SSH key"
 [gitConfig]: images/gitConfig.JPG "Git config"
+[cambioPrompt]: images/gitConfig.JPG "Prompt cambiado"
+[promptRama]: images/gitConfig.JPG "Prompt rama"
