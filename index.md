@@ -31,11 +31,11 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 
 * En la máquina virtual, vamos a generar una nueva pareja de clave pública-privada, dado que en la MV no tenemos niguna. Para ello, introducimos el siguiente comando:
 
-  * usuario@iaas-dsi16:~$ ssh-keygen
+  * usuario@ubuntu:~$ ssh-keygen
 
 * Para ver la clave publica que hemos generado hacemos:
 
-  * usuario@iaas-dsi16:~$ cat .ssh/id_rsa.pub 
+  * usuario@ubuntu:~$ cat .ssh/id_rsa.pub 
 
 * Ahora deberarmos copiar dicha clave y la tendremos que poner junto a nuestras claves públicas en GitHub. Para ello, deberemos dirigirnos a los ajustes de nuestra cuenta de GitHub y añadir la clave pública:
 
