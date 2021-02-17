@@ -52,5 +52,5 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 [SSHKEY]: images/usuariosIP.JPG "SSH-keygen"
 [CATSSHKEY]: images/usuariosIP.JPG "cat SSH-keygen"
 [Settings1]: images/settings1.JPG "Ajustes"
-[Settings2]: images/settings2.JPG "New SSH"
-[Settings3]: images/settings3.JPG "New SSH key"
+[Settings2]: images/settings2.jpg "New SSH"
+[Settings3]: images/settings3.jpg "New SSH key"
