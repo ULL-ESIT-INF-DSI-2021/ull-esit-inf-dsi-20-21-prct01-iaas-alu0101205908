@@ -136,7 +136,11 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
   * Añadimos la dirección IP de la máquina virtual (***10.6.130.26***) y su nombre ***iaas-dsi16***
  
   ![cat /etc/hosts en Local][IpMVenLC]
- 
+  
+* Además he completado el siguiente curso: **[Curso introductorio GitHub](https://lab.github.com/githubtraining/introduction-to-github)**
+
+  * El repositorio de muestra está en: **[Mi cuenta de GitHub](https://github.com/alu0101205908/github-slideshow)**
+
  
 [Numeracion]: images/numeracion.JPG "Numeración"
 [IP]: images/IP.JPG "IP"
