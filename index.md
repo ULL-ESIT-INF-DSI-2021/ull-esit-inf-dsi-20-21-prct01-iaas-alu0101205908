@@ -1,6 +1,6 @@
 # PRÁCTICA 1: Configuración de la máquina virtual en el IaaS
 
-En esta primera práctica hemos configurado nuestro entorno de trabajo para la asignatura de Desarrollo de Sistemas Informáticos. En líneas generales, lo que se ha hecho es configurar la máquina virutal que nos proporciona el IasS (Infraestructura como servicio) de la Universidad de La Laguna, modelando el ecosistema que utilizaremos en esta asignatura.
+En esta primera práctica hemos configurado nuestro entorno de trabajo para la asignatura de Desarrollo de Sistemas Informáticos. En líneas generales, lo que se ha hecho es configurar la máquina virutal (MV) que nos proporciona el IasS (Infraestructura como servicio) de la Universidad de La Laguna, modelando el ecosistema que utilizaremos en esta asignatura.
 
 ## Tareas iniciales:
 
@@ -16,7 +16,7 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 
 ![IP][IP]
 
-* A continuación, ya podemos dirigirnos a nuestra máquina Linux (local), y en la consola accederemos por SSH a nuestra máquina virtual del IaaS, dado que ya conocemos el nombre del usuario que es ***"usuario"*** y la IP de la máquina. 
+* A continuación, ya podemos dirigirnos a nuestra máquina Linux (local), y en la consola accederemos por SSH a nuestra MV del IaaS, dado que ya conocemos el nombre de usuario que es ***"usuario"*** y la IP de la máquina. 
 
    * borja@ubuntu:~$ ssh usuario@10.6.130.26
 
@@ -29,7 +29,7 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 
 ## Generación de claves máquina virtual:
 
-* En la máquina virtual, vamos a generar una nueva pareja de clave pública-privada, dado que en la MV no tenemos niguna. Para ello, introducimos el siguiente comando:
+* En la MV, vamos a generar una nueva pareja de clave pública-privada, dado que en la MV no tenemos niguna. Para ello, introducimos el siguiente comando:
 
   * usuario@ubuntu:~$ ssh-keygen
 
@@ -48,6 +48,18 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 ![New SSH][Settings2]
 
 ![New SSH key][Settings3]
+
+## Instalación de Git en la máquina virtual:
+
+* A continuación, vamos a instalar Git, el sistema de control de versiones que utilizaremos. En nuestro caso, ya viene instalado. Para proceder a su instalación debemos introducir la siguiente sentencia:
+
+ * usuario@ubuntu:~$ sudo apt install git
+
+* Seguidamente, procedemos a configurarlo, que no es otra cosa que poner nuestro nombre y nuestro correo en la configuración global de git de nuestra MV:
+
+ * usuario@ubuntu:~$ git config --global user.name "Borja Guanche"
+
+ * usuario@ubuntu:~$ git config --global user.email alu0101205908@ull.edu.es
 
 
 [Numeracion]: images/numeracion.JPG "Numeración"
