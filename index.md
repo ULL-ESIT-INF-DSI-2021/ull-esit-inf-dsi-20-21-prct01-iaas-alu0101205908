@@ -53,13 +53,13 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 
 * A continuación, vamos a instalar Git, el sistema de control de versiones que utilizaremos. En nuestro caso, ya viene instalado. Para proceder a su instalación debemos introducir la siguiente sentencia:
 
- * usuario@ubuntu:~$ sudo apt install git
+  * usuario@ubuntu:~$ sudo apt install git
 
 * Seguidamente, procedemos a configurarlo, que no es otra cosa que poner nuestro nombre y nuestro correo en la configuración global de git de nuestra MV:
 
- * usuario@ubuntu:~$ git config --global user.name "Borja Guanche"
+  * usuario@ubuntu:~$ git config --global user.name "Borja Guanche"
 
- * usuario@ubuntu:~$ git config --global user.email alu0101205908@ull.edu.es
+  * usuario@ubuntu:~$ git config --global user.email alu0101205908@ull.edu.es
 
 
 [Numeracion]: images/numeracion.JPG "Numeración"
