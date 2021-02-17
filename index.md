@@ -73,4 +73,4 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 [Settings1]: images/settings1.JPG "Ajustes"
 [Settings2]: images/settings2.jpg "New SSH"
 [Settings3]: images/settings3.jpg "New SSH key"
-[gitConfig]: images/settings3.jpg "Git config"
+[gitConfig]: images/gitConfig.JPG "Git config"
