@@ -64,6 +64,7 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
     * ***NOTA:*** Si ejectamos el siguiente comando, podremos ver la configuración del git:
     
       * usuario@ubuntu:~$ git config --list
+      * ![Git config][gitConfig]
 
 
 [Numeracion]: images/numeracion.JPG "Numeración"
@@ -72,3 +73,4 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 [Settings1]: images/settings1.JPG "Ajustes"
 [Settings2]: images/settings2.jpg "New SSH"
 [Settings3]: images/settings3.jpg "New SSH key"
+[gitConfig]: images/settings3.jpg "Git config"
