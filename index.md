@@ -79,7 +79,7 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
      
            PS1='\[\033]0;\u@\h:\w\007\]\[\033[0;34m\][\[\033[0;31m\]\w\[\033[0;32m\]($(git branch 2>/dev/null | sed -n "s/\* \(.*\)/\1/p"))\[\033[0;34m\]]$'
  
-    4. Ejecutamos el siguiente comando para reiniciar la terminal: usuario@ubuntu:~$ exec bash -l
+    4. Reiniciamos la terminal: usuario@ubuntu:~$ exec bash -l
    
 * Como veremos, el formato ha cambiado:
 
@@ -91,7 +91,22 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 
 ## Instalación del nvm y npm en la máquina virtual:
 
-* Finalmente, procederemos a la instalación del gestor de versiones de node.js ***nvm (node version manager)*** y el gestor de paquetes de node.js ***npm (node package manager*** en nuestra MV. Ambas son herramientas que utilizaremos en la asignatura para trabajar con el entorno node.js.
+* Finalmente, procederemos a la instalación del gestor de versiones de nodes ***nvm (node version manager)***, el propio ***node.js*** y el gestor de paquetes de node ***npm (node package manager)*** en nuestra MV. Son herramientas que utilizaremos en la asignatura para gestionar el entorno node.js y trabajar con código JavaScript o TypeScript. Lo haremos de la siguiente manera:
+
+   1. Ejecutamos el siguiente comando para instalar ***nvm***: $wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+   2. Reiniciamos la terminal: $exec bash -l
+   3. Comprobamos la versión de ***nvm***: $nvm --version
+   
+   FOTO
+   
+   4. Ejecutamos el siguiente comando para instalar ***node*** y ***npm***: $nvm install node
+
+   FOTO
+   
+* Si queremos instalar un versión determinada de node, o queremos cambiar la versión por otra que ya hemos instalado, solamente deberemos de hacer:
+
+  * $nvm install 12.0.0
+  * $nvm use v15.8.0 
 
 
 [Numeracion]: images/numeracion.JPG "Numeración"
