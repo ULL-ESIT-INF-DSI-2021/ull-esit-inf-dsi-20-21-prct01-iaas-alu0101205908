@@ -93,7 +93,7 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 
 * Finalmente, procederemos a la instalación del gestor de versiones de nodes ***nvm (node version manager)***, el propio ***node.js*** y el gestor de paquetes de node ***npm (node package manager)*** en nuestra MV. Son herramientas que utilizaremos en la asignatura para gestionar el entorno node.js y trabajar con código JavaScript o TypeScript. Lo haremos de la siguiente manera:
 
-   1. Ejecutamos el siguiente comando para instalar ***nvm***: $wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+   1.     Ejecutamos el siguiente comando para instalar ***nvm***: $wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
    2. Reiniciamos la terminal: $exec bash -l
    3. Comprobamos la versión de ***nvm***: $nvm --version
    
