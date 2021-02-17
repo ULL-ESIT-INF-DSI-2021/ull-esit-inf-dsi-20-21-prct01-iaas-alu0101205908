@@ -27,7 +27,30 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 
 * En caso de no tener el software de VPN instalado, se recomienda leer la siguiente documentación: **[VPN ULL](https://www.ull.es/servicios/stic/2020/12/01/servicio-de-vpn-de-la-ull/)**
 
+## Generación de claves máquina virtual:
+
+* En la máquina virtual, vamos a generar una nueva pareja de clave pública-privada, dado que en la MV no tenemos niguna. Para ello, introducimos el siguiente comando:
+
+![SSH-keygen][SSHKEY]
+
+* Para ver la clave publica que hemos generado hacemos:
+
+![cat SSH-keygen][CATSSHKEY]
+
+* Ahora deberarmos copiar dicha clave y la tendremos que poner junto a nuestras claves públicas en GitHub. Para ello, deberemos dirigirnos a los ajustes de nuestra cuenta de GitHub y añadir la clave pública:
+
+![Ajustes][Settings1]
+
+![New SSH][Settings2]
+
+![New SSH key][Settings3]
+
 
 [Numeracion]: images/numeracion.JPG "Numeración"
 [IP]: images/IP.JPG "IP"
 [UsuarioIP]: images/usuariosIP.JPG "Usuario@IP"
+[SSHKEY]: images/usuariosIP.JPG "SSH-keygen"
+[CATSSHKEY]: images/usuariosIP.JPG "cat SSH-keygen"
+[Settings1]: images/settings1.JPG "Ajustes"
+[Settings2]: images/settings2.JPG "New SSH"
+[Settings3]: images/settings3.JPG "New SSH key"
