@@ -132,10 +132,10 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 
 * En tercer lugar, vamos a incluir a la MV en la listas de hosts de la máquina local, de manera que no tengamos que recordar la dirección IP de la MV. Para ello haremos:
 
- * Ejecutamos el comando en la máquina local: sudo vi /etc/hostname
- * Añadimos la dirección IP de la máquina virtual (***10.6.130.26***) y su nombre ***iass-16***
+  * Ejecutamos el comando en la máquina local: sudo vi /etc/hostname
+  * Añadimos la dirección IP de la máquina virtual (***10.6.130.26***) y su nombre ***iass-16***
  
- ![cat /etc/hosts en Local][IpMVenLC]
+  ![cat /etc/hosts en Local][IpMVenLC]
  
  
 [Numeracion]: images/numeracion.JPG "Numeración"
