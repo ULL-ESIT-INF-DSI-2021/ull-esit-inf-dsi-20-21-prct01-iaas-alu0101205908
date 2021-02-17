@@ -39,7 +39,11 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 
 * Ahora deberarmos copiar dicha clave y la tendremos que poner junto a nuestras claves públicas en GitHub. Para ello, deberemos dirigirnos a los ajustes de nuestra cuenta de GitHub y añadir la clave pública:
 
+* Vamos a ajustes:
+ 
 ![Ajustes][Settings1]
+
+* Añadimos la clave generada:
 
 ![New SSH][Settings2]
 
