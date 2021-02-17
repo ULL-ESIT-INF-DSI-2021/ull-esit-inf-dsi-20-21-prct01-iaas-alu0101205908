@@ -97,11 +97,11 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
    2. Reiniciamos la terminal: $exec bash -l
    3. Comprobamos la versión de ***nvm***: $nvm --version
    
-   FOTO
+   ![Version nvm][nvm]
    
    4. Ejecutamos el siguiente comando para instalar ***node*** y ***npm***: $nvm install node
 
-   FOTO
+   ![Version de node y npm][node&npm]
    
 * Si queremos instalar un versión determinada de node, o queremos cambiar la versión por otra que ya hemos instalado, solamente deberemos de hacer:
 
@@ -118,3 +118,5 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 [gitConfig]: images/gitConfig.JPG "Git config"
 [cambioPrompt]: images/cambioPrompt.JPG "Prompt cambiado"
 [promptRama]: images/promptRama.JPG "Prompt rama"
+[nvm]: images/nvmVersion.JPG "Version nvm"
+[node&npm]: images/node&npmVersion.JPG "Version de node y npm"
