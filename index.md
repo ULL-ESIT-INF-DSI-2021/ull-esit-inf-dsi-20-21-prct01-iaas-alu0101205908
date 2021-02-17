@@ -80,6 +80,11 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
      ***PS1='\[\033]0;\u@\h:\w\007\]\[\033[0;34m\][\[\033[0;31m\]\w\[\033[0;32m\]($(git branch 2>/dev/null | sed -n "s/\* \(.*\)/\1/p"))\[\033[0;34m\]]$'***
  
     4. Ejecutamos el siguiente comando para reiniciar la terminal: usuario@ubuntu:~$ exec bash -l
+   
+* Como veremos, el formato ha cambiado:
+
+
+* Para comprobar que realiza su función, vamos a clonar un repositorio de GitHub, y veremos si cumple su función:
 
 
 [Numeracion]: images/numeracion.JPG "Numeración"
