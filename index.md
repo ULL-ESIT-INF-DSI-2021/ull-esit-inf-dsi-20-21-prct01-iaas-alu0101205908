@@ -110,7 +110,31 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
   * $nvm install 12.0.0
   * $nvm use v15.8.0 
 
+## Opcional:
 
+* De manera opcional, vamos a cambiar ciertos parámetros para por ejemplo, no tener que recordar la dirección IP de la MV.
+
+* En primer lugar, vamos a cambiar el nombre de la máquina, de ***ubuntu*** --> ***iass-16***, que es el número que se nos asignó. Para ello haremos:
+
+  * Ejecutamos el comando: sudo vi /etc/hostname
+  * Cambiamos el nombre ***ubuntu*** por ***iass-16***
+
+  ![cat /etc/hostname en MV][hostName]
+
+* En segundo lugar, vamos a cambiar el nombre asignado a la dirección 127.0.1.1, de ***ubuntu*** --> ***iass-16***. Para ello haremos:
+
+  * Ejecutamos el comando: sudo vi /etc/hosts
+  * Cambiamos el nombre ***ubuntu*** por ***iass-16*** de la dirección 127.0.1.1
+  * Actualizamos el software: sudo apt update  &  sudo apt upgrade
+  * Reiniciamos el sistema: sudo reboot
+
+* En tercer lugar, vamos a incluir a la MV en la listas de hosts de la máquina local, de manera que no tengamos que recordar la dirección IP de la MV. Para ello haremos:
+
+ * Ejecutamos el comando en la máquina local: sudo vi /etc/hostname
+ * Añadimos la dirección IP de la máquina virtual (***10.6.130.26***) y su nombre ***iass-16***
+ ![cat /etc/hosts en Local][IpMVenLC]
+ 
+ 
 [Numeracion]: images/numeracion.JPG "Numeración"
 [IP]: images/IP.JPG "IP"
 [UsuarioIP]: images/usuariosIP.JPG "Usuario@IP"
@@ -122,3 +146,5 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 [promptRama]: images/promptRama.JPG "Prompt rama"
 [nvm]: images/nvmVersion.JPG "Version nvm"
 [node&npm]: images/node&npmVersion.JPG "Version de node y npm"
+[hostName]: images/hostname.JPG "cat /etc/hostname en MV"
+[IpMVenLC]: images/ipMV.JPG "cat /etc/hosts en Local"
