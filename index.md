@@ -141,7 +141,7 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 
   * El repositorio de muestra está en: **[Mi cuenta de GitHub](https://github.com/alu0101205908/github-slideshow)**
 
-* Adicionalmente, he utilizado un simulador online para ver como iba quedando el presente fichero en Markdown. **[Markdown Online](https://jbt.github.io/markdown-editor/)**
+* Adicionalmente, he utilizado un simulador online para ver como quedaba el presente fichero en Markdown. **[Markdown Online](https://jbt.github.io/markdown-editor/)**
 
  
 [Numeracion]: images/numeracion.JPG "Numeración"
