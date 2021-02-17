@@ -126,12 +126,15 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
   * Ejecutamos el comando: sudo vi /etc/hosts
   * Cambiamos el nombre ***ubuntu*** por ***iass-16*** de la dirección 127.0.1.1
   * Actualizamos el software: sudo apt update  &  sudo apt upgrade
-  * Reiniciamos el sistema: sudo reboot
+  * Reiniciamos el sistema: sudo rebootç
+  
+  ![cat /etc/hosts en Virtual][IpMVenMv]
 
 * En tercer lugar, vamos a incluir a la MV en la listas de hosts de la máquina local, de manera que no tengamos que recordar la dirección IP de la MV. Para ello haremos:
 
  * Ejecutamos el comando en la máquina local: sudo vi /etc/hostname
  * Añadimos la dirección IP de la máquina virtual (***10.6.130.26***) y su nombre ***iass-16***
+ 
  ![cat /etc/hosts en Local][IpMVenLC]
  
  
@@ -147,4 +150,5 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 [nvm]: images/nvmVersion.JPG "Version nvm"
 [node&npm]: images/node&npmVersion.JPG "Version de node y npm"
 [hostName]: images/hostname.JPG "cat /etc/hostname en MV"
-[IpMVenLC]: images/ipMV.JPG "cat /etc/hosts en Local"
+[IpMVenMv]: images/ipMV.JPG "cat /etc/hosts en Virtual"
+[IpMVenLC]: images/ipML.JPG "cat /etc/hosts en Local"
