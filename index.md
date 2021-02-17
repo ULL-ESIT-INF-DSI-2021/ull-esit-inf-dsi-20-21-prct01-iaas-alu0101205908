@@ -77,7 +77,7 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
    
      ***source ~/.git-prompt.sh***
      
-     ***PS1='\[\033]0;\u@\h:\w\007\]\[\033[0;34m\][\[\033[0;31m\]\w\[\033[0;32m\]($(git branch 2>/dev/null | sed -n "s/\* \(.*\)/\1/p"))\[\033[0;34m\]]$'***
+     ***PS1='\[\033]0;\u@\h:\w\007\]\[\033[0;34m\][\[\033[0;31m\]\w\[\033[0;32m\]($(git branch 2>/dev/null | sed -n "s/\* \(.*\)/\1/p"))\[\033[0;34m\]]$' ***
  
     4. Ejecutamos el siguiente comando para reiniciar la terminal: usuario@ubuntu:~$ exec bash -l
    
