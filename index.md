@@ -96,5 +96,5 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 [Settings2]: images/settings2.jpg "New SSH"
 [Settings3]: images/settings3.jpg "New SSH key"
 [gitConfig]: images/gitConfig.JPG "Git config"
-[cambioPrompt]: images/gitConfig.JPG "Prompt cambiado"
-[promptRama]: images/gitConfig.JPG "Prompt rama"
+[cambioPrompt]: images/cambioPrompt.JPG "Prompt cambiado"
+[promptRama]: images/promptRama.JPG "Prompt rama"
