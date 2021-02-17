@@ -95,7 +95,7 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 
    1. Ejecutamos el siguiente comando para instalar ***nvm***: 
    
-        $wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+          $wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
    2. Reiniciamos la terminal: $exec bash -l
    3. Comprobamos la versión de ***nvm***: $nvm --version
    
