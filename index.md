@@ -64,7 +64,8 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
     * ***NOTA:*** Si ejectamos el siguiente comando, podremos ver la configuración del git:
     
       * usuario@ubuntu:~$ git config --list
-        ![Git config][gitConfig]
+       
+      ![Git config][gitConfig]
 
 
 [Numeracion]: images/numeracion.JPG "Numeración"
