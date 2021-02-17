@@ -126,7 +126,7 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
   * Ejecutamos el comando: sudo vi /etc/hosts
   * Cambiamos el nombre ***ubuntu*** por ***iaas-dsi16*** de la dirección 127.0.1.1
   * Actualizamos el software: sudo apt update  &  sudo apt upgrade
-  * Reiniciamos el sistema: sudo rebootç
+  * Reiniciamos el sistema: sudo reboot
   
   ![cat /etc/hosts en Virtual][IpMVenMv]
 
