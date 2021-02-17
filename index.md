@@ -89,6 +89,11 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 
 ![Prompt rama][promptRama]
 
+## Instalación del nvm y npm en la máquina virtual:
+
+* Finalmente, procederemos a la instalación del gestor de versiones de node.js ***nvm (node version manager)*** y el gestor de paquetes de node.js ***npm (node package manager*** en nuestra MV. Ambas son herramientas que utilizaremos en la asignatura para trabajar con el entorno node.js.
+
+
 [Numeracion]: images/numeracion.JPG "Numeración"
 [IP]: images/IP.JPG "IP"
 [UsuarioIP]: images/usuariosIP.JPG "Usuario@IP"
