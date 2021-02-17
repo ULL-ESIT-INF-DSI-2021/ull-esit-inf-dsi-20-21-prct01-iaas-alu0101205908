@@ -18,7 +18,7 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 
 * A continuación, ya podemos dirigirnos a nuestra máquina Linux (local), y en la consola accederemos por SSH a nuestra máquina virtual del IaaS, dado que ya conocemos el nombre del usuario que es ***"usuario"*** y la IP de la máquina. 
 
-![Usuario@IP][UsuarioIP]
+   * borja@ubuntu:~$ ssh usuario@10.6.130.26
 
 * Nos saldrá un mensaje al que deberemos responder con ***"yes"***, y nos pedirá una contraseña, que será ***"usuario"***.
   
@@ -31,11 +31,11 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 
 * En la máquina virtual, vamos a generar una nueva pareja de clave pública-privada, dado que en la MV no tenemos niguna. Para ello, introducimos el siguiente comando:
 
-![SSH-keygen][SSHKEY]
+  * usuario@iaas-dsi16:~$ ssh-keygen
 
 * Para ver la clave publica que hemos generado hacemos:
 
-![cat SSH-keygen][CATSSHKEY]
+  * usuario@iaas-dsi16:~$ cat .ssh/id_rsa.pub 
 
 * Ahora deberarmos copiar dicha clave y la tendremos que poner junto a nuestras claves públicas en GitHub. Para ello, deberemos dirigirnos a los ajustes de nuestra cuenta de GitHub y añadir la clave pública:
 
@@ -53,8 +53,6 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 [Numeracion]: images/numeracion.JPG "Numeración"
 [IP]: images/IP.JPG "IP"
 [UsuarioIP]: images/usuariosIP.JPG "Usuario@IP"
-[SSHKEY]: images/usuariosIP.JPG "SSH-keygen"
-[CATSSHKEY]: images/usuariosIP.JPG "cat SSH-keygen"
 [Settings1]: images/settings1.JPG "Ajustes"
 [Settings2]: images/settings2.jpg "New SSH"
 [Settings3]: images/settings3.jpg "New SSH key"
