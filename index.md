@@ -61,11 +61,15 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 
   * usuario@ubuntu:~$ git config --global user.email alu0101205908@ull.edu.es
 
-    * ***NOTA:*** Si ejectamos el siguiente comando, podremos ver la configuración del git:
+    * ***NOTA:*** Si ejecutamos el siguiente comando, podremos ver la configuración del git:
     
       * usuario@ubuntu:~$ git config --list
        
       ![Git config][gitConfig]
+      
+## Cambio del prompt en la máquina virtual:
+
+* Vamos a cambiar el prompt que tenemos en la terminal de nuestra MV, para que cuando estemos dentro de un repositorio, aparezca la rama actual en el prompt. Esto nos va a ayudar a evitar hacer un git branch para ver la rama activa actualmente. La terminal con la que trabajamos es una bash. Para hacer el cambio, primero se deberá acceder al siguiente enlace **[GIT PROMPT](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh)**, copiaremos todo el fichero y lo pegaremos en un nuevo fichero en nuestra MV que denominaremos ***"git-prompt.sh"***.
 
 
 [Numeracion]: images/numeracion.JPG "Numeración"
