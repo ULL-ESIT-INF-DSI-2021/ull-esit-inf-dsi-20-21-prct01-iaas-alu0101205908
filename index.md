@@ -1,10 +1,10 @@
 # PRÁCTICA 1: Configuración de la máquina virtual en el IaaS
 
-En esta primera práctica hemos configurado nuestro entorno de trabajo para la asignatura de Desarrollo de Sistemas Informáticos. En líneas generales, lo que se ha hecho es configurar la máquina virutal (MV) que nos proporciona el IasS (Infraestructura como servicio) de la Universidad de La Laguna, modelando el ecosistema que utilizaremos en esta asignatura.
+En esta primera práctica hemos configurado nuestro entorno de trabajo para la asignatura de Desarrollo de Sistemas Informáticos. En líneas generales, lo que se ha hecho es configurar la **[máquina virtual](https://es.wikipedia.org/wiki/M%C3%A1quina_virtual)** (MV) que nos proporciona el **[IasS](https://es.wikipedia.org/wiki/Infraestructura_como_servicio_(IaaS))** (Infraestructura como servicio) de la Universidad de La Laguna, modelando el ecosistema que utilizaremos en esta asignatura.
 
 ## Tareas iniciales:
 
-* Para empezar, debemos de tener instalado el software de VPN de la Universidad de La Laguna, para emular que estamos conectados a su red, y así poder acceder a los servicios del IaaS. En nuestro caso, ya tenemos configurada la VPN, dado que ya lo hemos necesitado para otras asignaturas. Una vez activada la VPN de la ULL, nos dirigimos a **[IaaS ULL](https://iaas.ull.es/ovirt-engine/sso/login.html)**, e introducimos nuestras credenciales para poder acceder a nuestro pool de máquinas. 
+* Para empezar, debemos de tener instalado el software de **[VPN](https://es.wikipedia.org/wiki/Red_privada_virtual)** de la Universidad de La Laguna, para emular que estamos conectados a su red, y así poder acceder a los servicios del IaaS. En nuestro caso, ya tenemos configurada la VPN, dado que ya lo hemos necesitado para otras asignaturas. Una vez activada la VPN de la ULL, nos dirigimos a **[IaaS ULL](https://iaas.ull.es/ovirt-engine/sso/login.html)**, e introducimos nuestras credenciales para poder acceder a nuestro pool de máquinas. 
 
   * (***En caso de no tener activa la VPN de la ULL, no podremos acceder al link del portal del IaaS***). 
 
@@ -16,7 +16,7 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 
 ![IP][IP]
 
-* A continuación, ya podemos dirigirnos a nuestra máquina Linux (local), y en la consola accederemos por SSH a nuestra MV del IaaS, dado que ya conocemos el nombre de usuario que es ***"usuario"*** y la IP de la máquina. 
+* A continuación, ya podemos dirigirnos a nuestra máquina Linux (local), y en la consola accederemos por **[SSH](https://es.wikipedia.org/wiki/Secure_Shell)** a nuestra MV del IaaS, dado que ya conocemos el nombre de usuario que es ***"usuario"*** y la IP de la máquina. 
 
    * borja@ubuntu:~$ ssh usuario@10.6.130.26
 
@@ -51,7 +51,7 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 
 ## Instalación de Git en la máquina virtual:
 
-* A continuación, vamos a instalar Git, el sistema de control de versiones que utilizaremos. En nuestro caso, ya viene instalado. Para proceder a su instalación debemos introducir la siguiente sentencia:
+* A continuación, vamos a instalar **[Git](https://es.wikipedia.org/wiki/Git)**, el sistema de control de versiones que utilizaremos. En nuestro caso, ya viene instalado. Para proceder a su instalación debemos introducir la siguiente sentencia:
 
   * usuario@ubuntu:~$ sudo apt install git
 
@@ -69,7 +69,7 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
       
 ## Cambio del prompt en la máquina virtual:
 
-* Vamos a cambiar el prompt que tenemos en la terminal de nuestra MV, para que cuando estemos dentro de un repositorio, aparezca la rama actual en el prompt. Esto nos va a ayudar a evitar hacer un git branch para ver la rama activa actualmente. Para hacer el cambio, primero se deberá acceder al siguiente enlace **[GIT PROMPT](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh)**.
+* Vamos a cambiar el **[prompt](https://es.wikipedia.org/wiki/Prompt)** que tenemos en la terminal de nuestra MV, para que cuando estemos dentro de un repositorio, aparezca la rama actual en el prompt. Esto nos va a ayudar a evitar hacer un git branch para ver la rama activa actualmente. Para hacer el cambio, primero se deberá acceder al siguiente enlace **[GIT PROMPT](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh)**.
 
    1. Copiaremos todo el fichero del enlace anterior, y lo pegaremos en un nuevo fichero en nuestra MV que denominaremos ***"git-prompt.sh"***. 
    2. Ejecutaremos el siguiente comando: usuario@ubuntu:~$ mv git-prompt.sh .git-prompt.sh
@@ -91,7 +91,7 @@ En esta primera práctica hemos configurado nuestro entorno de trabajo para la a
 
 ## Instalación de node, nvm y npm en la máquina virtual:
 
-* Finalmente, procederemos a la instalación del gestor de versiones de nodes ***nvm (node version manager)***, el propio ***node.js*** y el gestor de paquetes de node ***npm (node package manager)*** en nuestra MV. Son herramientas que utilizaremos en la asignatura para gestionar el entorno node.js y trabajar con código JavaScript o TypeScript. Lo haremos de la siguiente manera:
+* Finalmente, procederemos a la instalación del gestor de versiones de **[node.js](https://es.wikipedia.org/wiki/Node.js)** ***nvm (node version manager)***, el propio ***node.js*** y el gestor de paquetes de node ***npm (node package manager)*** en nuestra MV. Son herramientas que utilizaremos en la asignatura para gestionar el entorno node.js y trabajar con código JavaScript o TypeScript. Lo haremos de la siguiente manera:
 
    1. Ejecutamos el siguiente comando para instalar ***nvm***: 
    
