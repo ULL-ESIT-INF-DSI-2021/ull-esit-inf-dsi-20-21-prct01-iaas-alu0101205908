@@ -145,7 +145,11 @@ Para acceder a la GitHub page: **[AQUÍ](https://ull-esit-inf-dsi-2021.github.io
 
 * Adicionalmente, he utilizado un simulador online para ver como quedaba el presente fichero en Markdown. **[Markdown Online](https://jbt.github.io/markdown-editor/)**
 
- 
+## Conclusión:
+
+* En esta práctica hemos configurado el que va a ser nuestro medio de trabajo para la presente asignatura. Gracias al tutorial guiado que nos ha facilitado el profesor ha sido bastante sencillo de realizar dicha configuración. Hemos hecho varias labores que ya hemos realizado en otras asignaturas, como trabajar con la shell de Unix para configurar ficheros del sistema e instalar paquetes, trabajar con el sistema de control de versiones Git y con GitHub. Con esta última herramienta, hemos aprendido la funcionalidad de GitHub Pages, un generador de páginas con dominio .github.io que se autogeneran a partir de un fichero en Markdown. Por otra parte, he hecho un curso de GitHub, que pese a que fue de corta duración me sirvió para aprender mucho acerca de la plataforma, dado que yo ya era usuario de GitHub, pero solo lo utilizaba para publicar mis pequeños proyectos o ideas a partir de un repositorio desde mi máquina. 
+
+
 [Numeracion]: images/numeracion.JPG "Numeración"
 [IP]: images/IP.JPG "IP"
 [UsuarioIP]: images/usuariosIP.JPG "Usuario@IP"
