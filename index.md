@@ -51,6 +51,33 @@ Para acceder a la GitHub page: **[AQUÍ](https://ull-esit-inf-dsi-2021.github.io
 
 ![New SSH key][Settings3]
 
+
+* De manera opcional, vamos a cambiar ciertos parámetros para por ejemplo, no tener que recordar la dirección IP de la MV.
+
+* En primer lugar, vamos a cambiar el nombre de la máquina, de ***ubuntu*** --> ***iaas-dsi16***, que es el número que se nos asignó. Para ello haremos:
+
+  * Ejecutamos el comando: sudo vi /etc/hostname
+  * Cambiamos el nombre ***ubuntu*** por ***iaas-dsi16***
+
+  ![cat /etc/hostname en MV][hostName]
+
+* En segundo lugar, vamos a cambiar el nombre asignado a la dirección 127.0.1.1, de ***ubuntu*** --> ***iaas-dsi16***. Para ello haremos:
+
+  * Ejecutamos el comando: sudo vi /etc/hosts
+  * Cambiamos el nombre ***ubuntu*** por ***iaas-dsi16*** de la dirección 127.0.1.1
+  * Actualizamos el software: sudo apt update  &  sudo apt upgrade
+  * Reiniciamos el sistema: sudo reboot
+  
+  ![cat /etc/hosts en Virtual][IpMVenMv]
+
+* En tercer lugar, vamos a incluir a la MV en la listas de hosts de la máquina local, de manera que no tengamos que recordar la dirección IP de la MV. Para ello haremos:
+
+  * Ejecutamos el comando en la máquina local: sudo vi /etc/hostname
+  * Añadimos la dirección IP de la máquina virtual (***10.6.130.26***) y su nombre ***iaas-dsi16***
+ 
+  ![cat /etc/hosts en Local][IpMVenLC]
+
+
 ## Instalación de Git en la máquina virtual:
 
 * A continuación, vamos a instalar **[Git](https://es.wikipedia.org/wiki/Git)**, el sistema de control de versiones que utilizaremos. En nuestro caso, ya viene instalado. Para proceder a su instalación debemos introducir la siguiente sentencia:
@@ -112,34 +139,10 @@ Para acceder a la GitHub page: **[AQUÍ](https://ull-esit-inf-dsi-2021.github.io
   * $nvm install 12.0.0
   * $nvm use v15.8.0 
 
+
 ## Opcional:
 
-* De manera opcional, vamos a cambiar ciertos parámetros para por ejemplo, no tener que recordar la dirección IP de la MV.
-
-* En primer lugar, vamos a cambiar el nombre de la máquina, de ***ubuntu*** --> ***iaas-dsi16***, que es el número que se nos asignó. Para ello haremos:
-
-  * Ejecutamos el comando: sudo vi /etc/hostname
-  * Cambiamos el nombre ***ubuntu*** por ***iaas-dsi16***
-
-  ![cat /etc/hostname en MV][hostName]
-
-* En segundo lugar, vamos a cambiar el nombre asignado a la dirección 127.0.1.1, de ***ubuntu*** --> ***iaas-dsi16***. Para ello haremos:
-
-  * Ejecutamos el comando: sudo vi /etc/hosts
-  * Cambiamos el nombre ***ubuntu*** por ***iaas-dsi16*** de la dirección 127.0.1.1
-  * Actualizamos el software: sudo apt update  &  sudo apt upgrade
-  * Reiniciamos el sistema: sudo reboot
-  
-  ![cat /etc/hosts en Virtual][IpMVenMv]
-
-* En tercer lugar, vamos a incluir a la MV en la listas de hosts de la máquina local, de manera que no tengamos que recordar la dirección IP de la MV. Para ello haremos:
-
-  * Ejecutamos el comando en la máquina local: sudo vi /etc/hostname
-  * Añadimos la dirección IP de la máquina virtual (***10.6.130.26***) y su nombre ***iaas-dsi16***
- 
-  ![cat /etc/hosts en Local][IpMVenLC]
-  
-* Además he completado el siguiente curso: **[Curso introductorio GitHub](https://lab.github.com/githubtraining/introduction-to-github)**
+* He completado el siguiente curso: **[Curso introductorio GitHub](https://lab.github.com/githubtraining/introduction-to-github)**
 
   * El repositorio de muestra está en: **[Mi cuenta de GitHub](https://github.com/alu0101205908/github-slideshow)**
 
